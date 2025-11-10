@@ -35,18 +35,21 @@ free-llm-csat-case/
 │   └── 02_visualization.ipynb     # visualization of clusters
 │
 ├── reports/
-│   └── findings.md                # short analytical report (1–2 pages)
+│   └── Report.docx                # short analytical report 
 │
 ├── requirements.txt
 └── README.md
 ```
+
 Note: in order to preserve Free's database, it was not included in this project, feel free to include any database of your choice.
+
 ---
 
 ## Installation & Setup
 
 ### 1. Create a virtual environment
 ```bash
+#Feel free to use conda as well
 python -m venv .venv
 source .venv/bin/activate       # (Mac/Linux)
 # or
@@ -59,7 +62,7 @@ pip install -r requirements.txt
 ```
 #### Note: This requirements.txt may have unecessary libraries, as I also used it for other personal ML projects.
 ### 3. Place your SQLite database
-Copy the provided file `db.sqlite` into the `data/` folder.
+Copy the file `db.sqlite` (or any of your choice) into the `data/` folder.
 
 ---
 
@@ -149,6 +152,6 @@ This displays:
 
 
 ---
-## 🧾 Author
+## Author
 Developed by **Gustavo Scheidt** as part of a data/LLM case study project.  
 Institut Polytechnique de Paris, 2025.
