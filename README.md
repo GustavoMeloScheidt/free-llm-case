@@ -40,7 +40,7 @@ free-llm-csat-case/
 ├── requirements.txt
 └── README.md
 ```
-
+Note: in order to preserve Free's database, it was not included in this project, feel free to include any database of your choice.
 ---
 
 ## Installation & Setup
